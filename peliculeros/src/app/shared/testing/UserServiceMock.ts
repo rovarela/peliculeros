@@ -1,5 +1,5 @@
 import { Response, ResponseOptions } from '@angular/http';
-
+import 'rxjs/add/observable/of';
 import { Observable } from 'rxjs/Observable';
 import { UserData } from './../model/data.class';
 

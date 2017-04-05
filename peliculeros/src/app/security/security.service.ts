@@ -3,7 +3,9 @@ import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserStoreService } from "../shared/user-store.service";
-import {UserData} from "../shared/model/data.class";
+import { UserData } from "../shared/model/data.class";
+import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 
