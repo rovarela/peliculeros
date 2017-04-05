@@ -4,7 +4,7 @@ import 'rxjs/add/operator/finally';
 
 import { Headers, Http, Request, RequestOptions, RequestOptionsArgs, Response, XHRBackend } from '@angular/http';
 
-import { CrudService } from './crud.service';
+import { CrudService } from './crud-service';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Router } from '@angular/router';

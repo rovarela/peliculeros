@@ -1,7 +1,8 @@
-import { CrudService } from './../shared/crud.service';
+import { CrudService } from './../../shared/crud-service';
 import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
+import { UserStoreService } from "../shared/user-store.service";
 
 @Injectable()
 export class SecurityService extends CrudService{

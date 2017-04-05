@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import { Router } from '@angular/router';
 
 @Injectable()
-export class CrudServiceService {
+export class CrudService{
 
 
   public apiEndPoint = '';

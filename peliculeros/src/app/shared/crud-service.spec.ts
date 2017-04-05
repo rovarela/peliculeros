@@ -1,6 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { CrudServiceService } from './crud-service.service';
+import { CrudServiceService } from './crud-service';
 
 describe('CrudServiceService', () => {
   beforeEach(() => {
