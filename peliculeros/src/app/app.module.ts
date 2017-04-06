@@ -1,10 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
+import * as app from './index';
+
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { CoreModule } from './core/core.module';
 
+@NgModule(app.appConfig)
+
+<<<<<<< HEAD
 import { CoreModule} from './core/core.module';
 
 @NgModule({
@@ -20,4 +22,6 @@ import { CoreModule} from './core/core.module';
   providers: [],
   bootstrap: [AppComponent]
 })
+=======
+>>>>>>> 31b715a4ae53108b4ef67aabbeda1f9a336ebcf4
 export class AppModule { }
