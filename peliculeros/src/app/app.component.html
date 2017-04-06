@@ -1,16 +1,20 @@
-<article>
-  <header>
-    <h1>
-      <!--enlace con propiedades del componente-->
-      {{title}}
-    </h1>
-  </header>
-  <main>
-    <!--el componente movimientos desaparece-->
-    <!--<cf-movimientos></cf-movimientos>-->
+<h1>
+  {{title}}
+</h1>
 
-    <!--ahora usaremos un componente nativo 
-  que el enrutador cargue una página dinámicamente-->
-    <router-outlet></router-outlet>
-  </main>
-</article>
+<app-container></app-container>
+
+<header>
+  <h1>
+    <!--enlace con propiedades del componente-->
+    {{title}}
+  </h1>
+</header>
+<main>
+  <!--el componente movimientos desaparece-->
+  <!--<cf-movimientos></cf-movimientos>-->
+
+  <!--ahora usaremos un componente nativo 
+que el enrutador cargue una página dinámicamente-->
+  <router-outlet></router-outlet>
+</main>
