@@ -3,11 +3,13 @@ import * as app from './index';
 import { NgModule } from '@angular/core';
 
 import { CoreModule } from './core/core.module';
+import {AppComponent} from './app.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {HttpModule} from '@angular/http';
+import {FormsModule} from '@angular/forms';
 
 @NgModule(app.appConfig)
 
-<<<<<<< HEAD
-import { CoreModule} from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,5 @@ import { CoreModule} from './core/core.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-=======
->>>>>>> 31b715a4ae53108b4ef67aabbeda1f9a336ebcf4
+
 export class AppModule { }
