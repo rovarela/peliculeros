@@ -7,11 +7,15 @@ import { ContainerComponent } from './container/container.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 
+import {PeliculasModule} from '../peliculas/peliculas.module';
+
 @NgModule({
   imports: [
     CommonModule,
-    CoreRoutingModule
+    CoreRoutingModule,
+    PeliculasModule
   ],
-  declarations: [HeaderComponent, ContainerComponent, FooterComponent, MenuComponent]
+  declarations: [HeaderComponent, ContainerComponent, FooterComponent, MenuComponent],
+  exports:[HeaderComponent,ContainerComponent,FooterComponent,MenuComponent]
 })
 export class CoreModule { }

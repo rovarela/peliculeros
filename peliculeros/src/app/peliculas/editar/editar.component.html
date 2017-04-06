@@ -1,0 +1,12 @@
+<form (ngSubmit)="guardarPelicula(peliculaForm)" [formGroup]="peliculaForm" novalidate>
+  <label>Título</label>
+  <input name="titulo" type="text" [ngClass]="{'input-error': formUtils.noEsValido('titulo') }" formControlName="titulo"/>
+  <label>Descripcion</label>
+  <textarea name="descripcion"  [ngClass]="{'input-error': formUtils.noEsValido('descripcion') }" formControlName="descripcion"></textarea>
+  <label>Título</label>
+  <input name="titulo" type="text" [ngClass]="{'input-error': formUtils.noEsValido('titulo') }" formControlName="titulo"/>
+  <label>Director</label>
+   <input name="director" type="text" [ngClass]="{'input-error': formUtils.noEsValido('director') }" formControlName="director"/>
+  <label>Año</label>
+  <input name="anho" type="text" [ngClass]="{'input-error': formUtils.noEsValido('anho') }" formControlName="anho"/>
+</form>
